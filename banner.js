@@ -1,6 +1,6 @@
-var canvas = document.getElementById("title-canvas");
-var stage = new createjs.Stage(canvas);
-		
+/*
+EaselJS utils for create banner
+*/
 function randomPixel(brick_name){
 	//brick_name+"_"+ Math.floor(Math.random()*4) +"_"+ Math.floor(Math.random()*4)
 	var pixel = stage.getChildByName( brick_name+"_"+ (Math.floor(Math.random()*3)) +"_"+ (Math.floor(Math.random()*3)) );
